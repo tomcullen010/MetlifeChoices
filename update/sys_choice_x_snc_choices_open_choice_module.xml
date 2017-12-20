@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="module" table="x_snc_choices_open_choice" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incident</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 16:10:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7970961137e0f008ac858a12244b061</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 16:12:17</sys_updated_on>
+            <u_translation_log_id/>
+            <value>incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problem</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 16:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2a70561137e0f008ac858a12244b00b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 16:13:44</sys_updated_on>
+            <u_translation_log_id/>
+            <value>problem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Request</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 16:10:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34b74561137e0f008ac858a12244b0e9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 16:13:50</sys_updated_on>
+            <u_translation_log_id/>
+            <value>change_request</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>module</element>
+            <name>x_snc_choices_open_choice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 16:10:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>36a7c561137e0f008ac858a12244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>module</sys_name>
+            <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_choices_open_choice_module</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 16:10:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

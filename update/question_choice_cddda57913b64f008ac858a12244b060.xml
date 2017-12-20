@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>4</order>
+        <question display_value="Support types">b8dda57913b64f008ac858a12244b050</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-03 13:35:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cddda57913b64f008ac858a12244b060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bulk Data Testing</sys_name>
+        <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
+        <sys_update_name>question_choice_cddda57913b64f008ac858a12244b060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-03 13:35:44</sys_updated_on>
+        <text>Bulk Data Testing</text>
+        <value>Bulk Data Testing</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=cddda57913b64f008ac858a12244b060"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>cddda57913b64f008ac858a12244b060</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-03 13:35:44</sys_created_on>
+        <sys_id>41dda57913b64f008ac858a12244b062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-03 13:35:44</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>cddda57913b64f008ac858a12244b060</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-03 13:35:44</sys_created_on>
+        <sys_id>09dda57913b64f008ac858a12244b061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-03 13:35:44</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

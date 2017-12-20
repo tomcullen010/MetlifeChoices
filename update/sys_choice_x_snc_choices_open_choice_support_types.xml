@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="support_types" table="x_snc_choices_open_choice" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Audit-Compliance</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit – Internal</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:33:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fce7ce9133e0f008ac858a12244b077</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:34:04</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Audit – Internal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Testing</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bulk Data Testing</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>179ebce9133e0f008ac858a12244b0cf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:32:12</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Bulk Data Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Reporting</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Create</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a721856d133e0f008ac858a12244b040</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:45:32</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Create</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data Correction</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Correction</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:41:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>917f742d133e0f008ac858a12244b08d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:42:35</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Data Correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Potential Problem Investigation</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feed Issue</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:48:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a62cd6d133e0f008ac858a12244b0aa</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:49:41</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Feed Issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Operations Support</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance Check</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:47:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fa1896d133e0f008ac858a12244b058</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:48:27</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Performance Check</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Batch Scheduling</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schedule Update</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44c281ad133e0f008ac858a12244b081</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:50:47</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Schedule Update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Audit-Compliance</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit – External</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:33:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a91f302d133e0f008ac858a12244b05f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:34:09</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Audit – External</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data Correction</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Load</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1421492d133e0f008ac858a12244b03d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:43:11</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Data Load</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Operations Support</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Documentation Update</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:47:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb520d6d133e0f008ac858a12244b081</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:48:31</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Documentation Update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Reporting</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Edit</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25a1096d133e0f008ac858a12244b01e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:45:36</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Edit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Potential Problem Investigation</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Inquiry</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:49:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2b20d6d133e0f008ac858a12244b0a5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:49:46</sys_updated_on>
+            <u_translation_log_id/>
+            <value>General Inquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Testing</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stress and Performance Testing</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24ce7ce9133e0f008ac858a12244b077</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:32:38</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Stress and Performance Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Batch Scheduling</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temporary Override</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:50:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>def2c1ad133e0f008ac858a12244b042</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:50:53</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Temporary Override</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data Correction</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Update</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1621016d133e0f008ac858a12244b02f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:43:34</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Data Update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Application Reporting</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schedule</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72a1896d133e0f008ac858a12244b02d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:45:40</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Schedule</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Audit-Compliance</dependent_value>
+            <element>support_types</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sox</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:33:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec2f702d133e0f008ac858a12244b0c7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:34:31</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Sox</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>support_types</element>
+            <name>x_snc_choices_open_choice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:31:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>28ce7ce9133e0f008ac858a12244b0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>support_types</sys_name>
+            <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_choices_open_choice_support_types</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:31:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

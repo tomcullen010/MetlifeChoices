@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="support_category" table="x_snc_choices_open_choice" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Reporting</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:24:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8aec3ca9133e0f008ac858a12244b037</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:24:45</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Application Reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10352 – Peoplesoft</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Testing</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:26:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>314d30e9133e0f008ac858a12244b0ad</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:26:56</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Application Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1156 – UCS Dental</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Potential Problem Investigation</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:28:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>669df0e9133e0f008ac858a12244b033</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:28:47</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Potential Problem Investigation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10352 – Peoplesoft</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit/Compliance</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:26:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b8dbca9133e0f008ac858a12244b0fb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:27:29</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Audit-Compliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1156 – UCS Dental</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch Scheduling</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:28:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27fd34e9133e0f008ac858a12244b081</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:29:10</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Batch Scheduling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Correction</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:24:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c1d3ca9133e0f008ac858a12244b038</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:25:31</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Data Correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10352 – Peoplesoft</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Correction</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:26:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e49d30e9133e0f008ac858a12244b0b0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:27:54</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Data Correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>10140 – ServiceNow</dependent_value>
+            <element>support_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operations Support</label>
+            <language>en</language>
+            <name>x_snc_choices_open_choice</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:25:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e73d30e9133e0f008ac858a12244b007</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:26:00</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Operations Support</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>support_category</element>
+            <name>x_snc_choices_open_choice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 15:24:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>581d3ca9133e0f008ac858a12244b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>support_category</sys_name>
+            <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_choices_open_choice_support_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 15:24:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

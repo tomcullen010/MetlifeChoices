@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Open Choice" max_length="40" name="x_snc_choices_open_choice" type="collection">
+        <element choice="1" label="Application" max_length="40" name="application" type="choice">
+            <choice>
+                <element label="10140 – ServiceNow" sequence="10" value="10140 – ServiceNow"/>
+                <element label="10352 – Peoplesoft" sequence="20" value="10352 – Peoplesoft"/>
+                <element label="1156 – UCS Dental" sequence="30" value="1156 – UCS Dental"/>
+            </choice>
+        </element>
+        <element label="Fields" max_length="4000" name="fields" type="simple_name_values"/>
+        <element choice="1" dependent="application" dependent_on_field="application" label="Module" max_length="40" name="module" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="10140 – ServiceNow" label="Incident" sequence="10" value="incident"/>
+                <element dependent_value="10140 – ServiceNow" label="Problem" sequence="20" value="problem"/>
+                <element dependent_value="10140 – ServiceNow" label="Change Request" sequence="30" value="change_request"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" dependent="application" dependent_on_field="application" label="Support category" max_length="40" name="support_category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="10140 – ServiceNow" label="Application Reporting" sequence="10" value="Application Reporting"/>
+                <element dependent_value="10352 – Peoplesoft" label="Application Testing" sequence="10" value="Application Testing"/>
+                <element dependent_value="1156 – UCS Dental" label="Potential Problem Investigation" sequence="10" value="Potential Problem Investigation"/>
+                <element dependent_value="10352 – Peoplesoft" label="Audit/Compliance" sequence="20" value="Audit-Compliance"/>
+                <element dependent_value="1156 – UCS Dental" label="Batch Scheduling" sequence="20" value="Batch Scheduling"/>
+                <element dependent_value="10140 – ServiceNow" label="Data Correction" sequence="20" value="Data Correction"/>
+                <element dependent_value="10352 – Peoplesoft" label="Data Correction" sequence="30" value="Data Correction"/>
+                <element dependent_value="10140 – ServiceNow" label="Operations Support" sequence="30" value="Operations Support"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="support_category" dependent_on_field="support_category" label="Support types" max_length="40" name="support_types" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Audit-Compliance" label="Audit – Internal" sequence="10" value="Audit – Internal"/>
+                <element dependent_value="Application Testing" label="Bulk Data Testing" sequence="10" value="Bulk Data Testing"/>
+                <element dependent_value="Application Reporting" label="Create" sequence="10" value="Create"/>
+                <element dependent_value="Data Correction" label="Data Correction" sequence="10" value="Data Correction"/>
+                <element dependent_value="Potential Problem Investigation" label="Feed Issue" sequence="10" value="Feed Issue"/>
+                <element dependent_value="Operations Support" label="Performance Check" sequence="10" value="Performance Check"/>
+                <element dependent_value="Batch Scheduling" label="Schedule Update" sequence="10" value="Schedule Update"/>
+                <element dependent_value="Audit-Compliance" label="Audit – External" sequence="20" value="Audit – External"/>
+                <element dependent_value="Data Correction" label="Data Load" sequence="20" value="Data Load"/>
+                <element dependent_value="Operations Support" label="Documentation Update" sequence="20" value="Documentation Update"/>
+                <element dependent_value="Application Reporting" label="Edit" sequence="20" value="Edit"/>
+                <element dependent_value="Potential Problem Investigation" label="General Inquiry" sequence="20" value="General Inquiry"/>
+                <element dependent_value="Application Testing" label="Stress and Performance Testing" sequence="20" value="Stress and Performance Testing"/>
+                <element dependent_value="Batch Scheduling" label="Temporary Override" sequence="20" value="Temporary Override"/>
+                <element dependent_value="Data Correction" label="Data Update" sequence="30" value="Data Update"/>
+                <element dependent_value="Application Reporting" label="Schedule" sequence="30" value="Schedule"/>
+                <element dependent_value="Audit-Compliance" label="Sox" sequence="30" value="Sox"/>
+            </choice>
+        </element>
+    </element>
+</database>
