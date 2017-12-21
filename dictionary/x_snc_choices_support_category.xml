@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Support Category" max_length="40" name="x_snc_choices_support_category" type="collection">
+        <element label="Choice application" max_length="40" name="choice_application" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Support category" max_length="40" name="support_category" type="string"/>
+    </element>
+</database>

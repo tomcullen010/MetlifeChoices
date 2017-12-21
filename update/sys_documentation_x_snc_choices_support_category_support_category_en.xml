@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="number" label="Number" language="en" table="x_snc_choices_support_types">
+    <sys_documentation element="support_category" label="Support category" language="en" table="x_snc_choices_support_category">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>support_category</element>
             <help/>
             <hint/>
-            <label>Number</label>
+            <label>Support category</label>
             <language>en</language>
-            <name>x_snc_choices_support_types</name>
-            <plural>Numbers</plural>
+            <name>x_snc_choices_support_category</name>
+            <plural>Support categories</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>tom.cullen</sys_created_by>
-            <sys_created_on>2017-12-20 19:31:37</sys_created_on>
+            <sys_created_on>2017-12-21 00:26:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>8452ee1f138b87008ac858a12244b0da</sys_id>
+            <sys_id>33c5eb53134f87008ac858a12244b0ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Number</sys_name>
+            <sys_name>Support category</sys_name>
             <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_choices_support_types_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_choices_support_category_support_category_en</sys_update_name>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2017-12-20 19:31:37</sys_updated_on>
+            <sys_updated_on>2017-12-21 00:26:32</sys_updated_on>
             <u_translation_log_id/>
             <url/>
             <url_target/>

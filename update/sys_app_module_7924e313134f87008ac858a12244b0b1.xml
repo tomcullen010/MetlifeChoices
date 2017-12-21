@@ -12,35 +12,35 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Support Types</mobile_title>
+        <mobile_title>Support Categories</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_choices_support_types</name>
+        <name>x_snc_choices_support_category</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_snc_choices.support_types_user</roles>
+        <roles>x_snc_choices.support_category_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
-        <sys_created_on>2017-12-20 19:31:35</sys_created_on>
+        <sys_created_on>2017-12-21 00:19:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2f42ee1f138b87008ac858a12244b07c</sys_id>
+        <sys_id>7924e313134f87008ac858a12244b0b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Support Types</sys_name>
+        <sys_name>Support Categories</sys_name>
         <sys_overrides/>
         <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
-        <sys_update_name>sys_app_module_2f42ee1f138b87008ac858a12244b07c</sys_update_name>
+        <sys_update_name>sys_app_module_7924e313134f87008ac858a12244b0b1</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-12-20 19:31:35</sys_updated_on>
+        <sys_updated_on>2017-12-21 00:19:17</sys_updated_on>
         <timeline_page/>
-        <title>Support Types</title>
+        <title>Support Categories</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

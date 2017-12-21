@@ -7,7 +7,7 @@
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field>support_category</choice_field>
-        <choice_table>x_snc_choices_open_choice</choice_table>
+        <choice_table>x_snc_choices_support_category</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -27,11 +27,11 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>support_category</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>x_snc_choices_support_category</lookup_table>
         <lookup_unique>true</lookup_unique>
-        <lookup_value/>
+        <lookup_value>support_category</lookup_value>
         <macro/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
@@ -61,7 +61,7 @@
         <sys_created_on>2017-12-03 13:35:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f4dda57913b64f008ac858a12244b028</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Support category</sys_name>
         <sys_package display_value="Choices Manager" source="x_snc_choices">cdde030d13becb008ac858a12244b03b</sys_package>
         <sys_policy/>
@@ -69,16 +69,16 @@
         <sys_scope display_value="Choices Manager">cdde030d13becb008ac858a12244b03b</sys_scope>
         <sys_update_name>item_option_new_f4dda57913b64f008ac858a12244b028</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-12-19 20:18:07</sys_updated_on>
+        <sys_updated_on>2017-12-21 13:18:45</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>18</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
-        <variable_width>100</variable_width>
+        <variable_width>50</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
